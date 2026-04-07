@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Force-free, positive reinforcement dog training and walks in Cherrybrook and Sydney's Hills District. Free 30-minute online consult with The Kind Animal Collective." />
+  <title>The Kind Animal Collective | Force-Free Dog Training, Cherrybrook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Client-side gate only: password and assets are still visible in DevTools; use Netlify/Cloudflare for real access control. -->
+  <script>
+    (function () {
+      try {
+        if (sessionStorage.getItem("tkac_site_unlocked") === "1") {
+          document.documentElement.classList.add("site-unlocked");
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <section class="site-gate" id="site-gate" aria-labelledby="site-gate-title">
+    <form class="site-gate-form" id="site-gate-form" novalidate>
+      <h1 class="site-gate-title" id="site-gate-title">The Kind Animal Collective</h1>
+      <p class="site-gate-lead">This site is private. Enter the password to continue.</p>
+      <label class="site-gate-label" for="site-gate-password">Password</label>
+      <input
+        class="site-gate-input"
+        type="password"
+        id="site-gate-password"
+        name="password"
+        autocomplete="current-password"
+        required
+      />
+      <p class="site-gate-error" id="site-gate-error" role="alert" hidden>Incorrect password. Please try again.</p>
+      <button type="submit" class="btn btn-primary site-gate-submit">Enter site</button>
+    </form>
+  </section>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#top" aria-label="The Kind Animal Collective home">
+        <picture class="logo-picture">
+          <source srcset="images/logo.webp" type="image/webp" />
+          <img class="logo-img" src="images/logo.png" alt="" width="200" height="64" decoding="async" />
+        </picture>
+        <span class="logo-text">The Kind Animal <em>Collective</em></span>
+      </a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" id="nav-toggle">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#credentials">Credentials</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="nav-cta" href="#contact">Book consult</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <img
+          src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=1920&q=80"
+          alt=""
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+        />
+        <div class="hero-scrim" aria-hidden="true"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-logo-wrap">
+          <picture>
+            <source srcset="images/hero-logo.webp" type="image/webp" />
+            <img
+              class="hero-logo"
+              src="images/hero-logo.png"
+              alt="The Kind Animal Collective"
+              width="400"
+              height="160"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </picture>
+        </div>
+        <p class="hero-eyebrow">Cherrybrook &amp; Hills District · Sydney</p>
+        <h1 id="hero-title">Happier dogs through <span class="hero-accent">kindness</span>, not force.</h1>
+        <p class="hero-lead">Force-free, positive reinforcement training and enriching walks—practical skills for real life, with patience at every step.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Free 30-minute consult</a>
+          <a class="btn btn-ghost" href="#services">Services &amp; rates</a>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,90 1440,75 L1440,120 L0,120 Z" fill="currentColor"/></svg>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Highlights">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">✦</span>
+          <strong>Force-free methods</strong>
+          <span>No aversive tools or intimidation</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">◎</span>
+          <strong>Real-life skills</strong>
+          <span>Training that fits your routine</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true">⌂</span>
+          <strong>Local &amp; flexible</strong>
+          <span>In-home, online, walks &amp; packages</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <h2 class="section-title">Welcome to The Kind Animal Collective</h2>
+          <p class="lead">I'm <strong>Neha</strong>—founder and force-free dog trainer based in Sydney. Meet <strong>Roggie</strong> too—we believe training should feel good for dogs <em>and</em> humans.</p>
+          <p>I help busy individuals and families raise calm, well-mannered dogs without the overwhelm—whether you're starting with a new puppy or working through early behaviour challenges.</p>
+          <p>With a background in teaching and behaviour-focused training, I break everything into simple, practical steps that work in real homes and real neighbourhoods.</p>
+          <p class="about-tagline">Everything I do is rooted in kindness.</p>
+        </div>
+        <div class="about-photos" aria-label="Neha and Roggie">
+          <figure class="about-figure">
+            <div class="portrait-frame">
+              <img
+                src="images/neha-about.webp"
+                alt="Neha, founder and force-free dog trainer"
+                width="1200"
+                height="1600"
+                loading="lazy"
+              />
+            </div>
+            <figcaption class="portrait-caption">Neha — founder &amp; trainer</figcaption>
+          </figure>
+          <figure class="about-figure">
+            <div class="portrait-frame portrait-frame--alt">
+              <img
+                src="images/roggie.webp"
+                alt="Roggie the dog"
+                width="1200"
+                height="1600"
+                loading="lazy"
+              />
+            </div>
+            <figcaption class="portrait-caption">Roggie — the face that started it all</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt credentials" id="credentials" aria-labelledby="credentials-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title" id="credentials-title">Qualifications &amp; certificates</h2>
+          <p class="section-sub">Ongoing education and professional memberships—so you get clear, modern, force-free guidance backed by recognised training.</p>
+        </header>
+        <div class="credentials-layout">
+          <div class="credentials-summary">
+            <h3 class="credentials-heading">Training &amp; education</h3>
+            <ul class="credentials-list">
+              <li><strong>Dog Trainer Professional Program</strong> — Karen Pryor Academy for Animal Training &amp; Behaviour</li>
+              <li><strong>Help for Anxious Dogs</strong> workshop with Vicki Austin (Steve and Vicki Austin's Dog Training Education)</li>
+              <li>Courses from <strong>Positively by Victoria Stilwell</strong>, including Potty Training</li>
+            </ul>
+            <h3 class="credentials-heading">Memberships &amp; experience</h3>
+            <ul class="credentials-list">
+              <li>Member of the <strong>Association of Pet Dog Trainers (APDT)</strong></li>
+              <li><strong>Chief Instructor</strong>, Hornsby Dog Training Club since 2025 (volunteering since 2022), including redesigning their puppy program for real-life family skills</li>
+            </ul>
+            <h3 class="credentials-heading">Conferences</h3>
+            <ul class="credentials-list">
+              <li>Association of Pet Dog Trainers Conference, October 2025</li>
+            </ul>
+            <p class="credentials-commitment">I'm committed to ongoing learning—refining what I know so dogs and their people get the best support possible.</p>
+          </div>
+          <div class="certificates-panel">
+            <h3 class="certificates-panel-title">Certificates</h3>
+            <p class="certificates-panel-intro">Select a certificate to view it full size on this page. Use the close button or press Escape when finished.</p>
+            <div class="certificate-grid">
+              <article class="certificate-card">
+                <button
+                  type="button"
+                  class="certificate-thumb js-cert-trigger"
+                  aria-label="Open full size: Karen Pryor Academy Dog Trainer Professional Program certificate"
+                  data-cert-src="images/cert-kpa.webp"
+                  data-cert-alt="Karen Pryor Academy Dog Trainer Professional Program certificate"
+                  data-cert-title="Dog Trainer Professional Program"
+                >
+                  <img src="images/cert-kpa.webp" alt="" loading="lazy" width="640" height="424" />
+                </button>
+                <div class="certificate-card-body">
+                  <h4>Dog Trainer Professional Program</h4>
+                  <p>Karen Pryor Academy for Animal Training &amp; Behaviour</p>
+                  <button
+                    type="button"
+                    class="text-link cert-text-btn js-cert-trigger"
+                    data-cert-src="images/cert-kpa.webp"
+                    data-cert-alt="Karen Pryor Academy Dog Trainer Professional Program certificate"
+                    data-cert-title="Dog Trainer Professional Program"
+                  >
+                    View full size
+                  </button>
+                </div>
+              </article>
+              <article class="certificate-card">
+                <button
+                  type="button"
+                  class="certificate-thumb js-cert-trigger"
+                  aria-label="Open full size: Victoria Stilwell Positively Potty Training certificate"
+                  data-cert-src="images/cert-potty-victoria-stilwell.webp"
+                  data-cert-alt="Victoria Stilwell Positively Potty Training course certificate"
+                  data-cert-title="Potty Training"
+                >
+                  <img src="images/cert-potty-victoria-stilwell.webp" alt="" loading="lazy" width="640" height="424" />
+                </button>
+                <div class="certificate-card-body">
+                  <h4>Potty Training</h4>
+                  <p>Positively by Victoria Stilwell</p>
+                  <button
+                    type="button"
+                    class="text-link cert-text-btn js-cert-trigger"
+                    data-cert-src="images/cert-potty-victoria-stilwell.webp"
+                    data-cert-alt="Victoria Stilwell Positively Potty Training course certificate"
+                    data-cert-title="Potty Training"
+                  >
+                    View full size
+                  </button>
+                </div>
+              </article>
+              <article class="certificate-card">
+                <button
+                  type="button"
+                  class="certificate-thumb js-cert-trigger"
+                  aria-label="Open full size: APDT Conference 2025 certificate"
+                  data-cert-src="images/cert-apdt-conference.webp"
+                  data-cert-alt="APDT Conference 2025 certificate or attendance record"
+                  data-cert-title="APDT Conference 2025"
+                >
+                  <img src="images/cert-apdt-conference.webp" alt="" loading="lazy" width="640" height="424" />
+                </button>
+                <div class="certificate-card-body">
+                  <h4>APDT Conference</h4>
+                  <p>Association of Pet Dog Trainers · October 2025</p>
+                  <button
+                    type="button"
+                    class="text-link cert-text-btn js-cert-trigger"
+                    data-cert-src="images/cert-apdt-conference.webp"
+                    data-cert-alt="APDT Conference 2025 certificate or attendance record"
+                    data-cert-title="APDT Conference 2025"
+                  >
+                    View full size
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Services &amp; rates</h2>
+          <p class="section-sub">Choose the format that suits your dog and your schedule. Not sure? Start with a free consult and we'll map it out together.</p>
+        </header>
+        <div class="service-cards">
+          <article class="service-card">
+            <div class="service-card-top">
+              <span class="service-price">$150</span>
+              <h3>In-home training</h3>
+              <p class="service-meta">60 minutes · at your home</p>
+            </div>
+            <p>One-on-one training focused on real-life skills and strong foundations.</p>
+            <ul>
+              <li>Puppy set-up, routines &amp; house training</li>
+              <li>Handling &amp; grooming preparation</li>
+              <li>Socialisation &amp; polite greetings</li>
+              <li>Loose lead walking &amp; essential life skills</li>
+              <li>Hands-on help with jumping, barking &amp; pulling</li>
+            </ul>
+            <p class="service-note">Ideal for puppies, young dogs &amp; first-time families.</p>
+          </article>
+          <article class="service-card service-card-featured">
+            <div class="service-badge">Popular</div>
+            <div class="service-card-top">
+              <span class="service-price">$100</span>
+              <h3>Online training</h3>
+              <p class="service-meta">60 minutes · video call + custom plan</p>
+            </div>
+            <p>Focused guidance you can implement straight away—same topics as in-home, delivered remotely.</p>
+            <ul>
+              <li>Puppy foundations, calm settling &amp; life skills</li>
+              <li>Troubleshooting with tailored next steps</li>
+              <li>Great for refining skills between sessions</li>
+            </ul>
+            <p class="service-note">Perfect if you want flexible support from home.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card-top">
+              <span class="service-price">$55</span>
+              <h3>Dog walking</h3>
+              <p class="service-meta">30–45 minutes · solo walks</p>
+            </div>
+            <p>Reliable, enriching exercise—training not included.</p>
+            <ul>
+              <li>Quieter streets, parks, or locations to suit your dog</li>
+              <li>Doorstep pickup &amp; drop-off</li>
+              <li>Flexible timing where possible</li>
+            </ul>
+            <p class="service-note">Serving Cherrybrook, Castle Hill, Dural, West Pennant Hills, Pennant Hills &amp; Thornleigh (by arrangement).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section packages" id="packages">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Packages</h2>
+          <p class="section-sub">Structured programs for puppies, manners, and walk-and-train—get in touch for full details and pricing on custom bundles.</p>
+        </header>
+        <div class="package-grid">
+          <article class="package-card">
+            <h3>Puppy essentials</h3>
+            <p>Get set up before your pup arrives—or right after they come home.</p>
+            <ul>
+              <li>Routines, house training &amp; door manners</li>
+              <li>Handling, grooming prep &amp; socialisation</li>
+              <li>Foundations: sit, down, stay, recall, touch, leave it, drop</li>
+              <li>Nipping, jumping &amp; intro to loose lead walking</li>
+            </ul>
+            <a class="text-link" href="#contact">Ask about pricing →</a>
+          </article>
+          <article class="package-card">
+            <h3>Doggy manners</h3>
+            <p>For puppies or adults who need a solid everyday skill set.</p>
+            <ul>
+              <li>Jumping, barking &amp; settling on a mat</li>
+              <li>Sit, down, stay, touch &amp; recall</li>
+              <li>Loose lead walking &amp; more</li>
+            </ul>
+            <a class="text-link" href="#contact">Ask about pricing →</a>
+          </article>
+          <article class="package-card package-card-highlight">
+            <h3>Walk + train</h3>
+            <p>Solo walks with positive reinforcement built in—treats included.</p>
+            <ul>
+              <li>Name recognition, recall, attention &amp; leave it</li>
+              <li>Tips to keep progress going on your own walks</li>
+              <li><strong>New clients:</strong> minimum 3-session package</li>
+              <li><strong>3 sessions</strong> $170 · <strong>Single</strong> (existing clients) $70</li>
+            </ul>
+            <a class="text-link" href="#contact">Book walk + train →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-warm stories" id="stories">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">What clients say</h2>
+          <p class="section-sub">Kind words from people who've trusted us with their dogs.</p>
+        </header>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p>“Excellent host. Very friendly and good environment for the pet. Happy with the service and will use it more often in the future.”</p>
+            <footer>
+              <cite>Jay S.</cite>
+              <span>Hosting via Madpaws</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>“Neha was excellent with our dog Archie and looked after him during the stay. Thanks Neha!”</p>
+            <footer>
+              <cite>Prasoon K.</cite>
+              <span>Hosting via Madpaws</span>
+            </footer>
+          </blockquote>
+        </div>
+        <p class="madpaws-note">
+          Pet sitting &amp; day care also available via
+          <a href="https://www.madpaws.com.au/petsitter/cherrybrook-nsw/neha-t-your-dogs-home-away-from-home" target="_blank" rel="noopener noreferrer">Madpaws profile</a>
+          —small–medium dogs, plus house visits for dogs and cats in Cherrybrook and surrounds.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt faq" id="faq">
+      <div class="container container-narrow">
+        <header class="section-head">
+          <h2 class="section-title">FAQ</h2>
+        </header>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>How do I contact you?</summary>
+            <p>Send a message using the form below. You'll usually hear back within 1–2 days by email to schedule your free 30-minute online consult (Zoom, or Teams, FaceTime, or WhatsApp video if you prefer).</p>
+          </details>
+          <details class="faq-item">
+            <summary>What happens in the free consult?</summary>
+            <p>It's a relaxed chat to meet each other, learn about your dog, and explore what support you need. I'll explain how I work—no pressure. This consult is not a full assessment; if we decide to work together, I'll visit in person, observe your dog, and build a tailored training plan.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you offer tailored packages?</summary>
+            <p>Yes. I'm happy to discuss packages shaped around your goals and training plan.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you provide pet sitting?</summary>
+            <p>Yes—day care and pet hosting at my home for small–medium dogs, plus house visits for dogs and cats. See the <a href="https://www.madpaws.com.au/petsitter/cherrybrook-nsw/neha-t-your-dogs-home-away-from-home" target="_blank" rel="noopener noreferrer">Madpaws listing</a> for details and pricing.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <h2 id="cta-title">Ready for calmer walks and clearer communication?</h2>
+        <p>Book your free 30-minute online consult—no obligation, just a conversation about your dog.</p>
+        <a class="btn btn-light" href="#contact">Schedule my consult</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <h2 class="section-title">Send a message</h2>
+          <p>Tell me a little about your dog and what you'd like help with. I'll reply by email to arrange your free consult.</p>
+          <p class="contact-small"><strong>Note:</strong> This demo form shows a confirmation on submit. Connect it to your email or a form service (e.g. Formspree) when you go live.</p>
+          <address class="contact-address">
+            <span>The Kind Animal Collective</span>
+            <span>ABN 67 558 740 475</span>
+          </address>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone <span class="optional">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Dog's age, main goals, suburb…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Submit enquiry</button>
+          </form>
+          <div class="form-success" id="form-success" role="status" aria-live="polite" tabindex="-1" hidden>
+            <p class="form-success-title">Thank you!</p>
+            <p>Your enquiry has been noted. In production, this would send an email—add your endpoint or mail link in <code>js/main.js</code>.</p>
+            <button type="button" class="btn btn-ghost btn-full" id="form-reset">Send another message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">The Kind Animal <em>Collective</em></span>
+        <p>Force-free dog training &amp; walks · Sydney Hills</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#credentials">Credentials</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-legal">© <span id="year"></span> The Kind Animal Collective · ABN 67 558 740 475</p>
+    </div>
+  </footer>
+
+  <div id="cert-modal" class="cert-modal" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title" hidden>
+    <div class="cert-modal-backdrop" aria-hidden="true"></div>
+    <div class="cert-modal-panel">
+      <button type="button" class="cert-modal-close" aria-label="Close">&times;</button>
+      <div class="cert-modal-top">
+        <h2 id="cert-modal-title" class="cert-modal-heading"></h2>
+        <button
+          type="button"
+          class="btn btn-zoom"
+          id="cert-zoom-toggle"
+          aria-pressed="false"
+          aria-controls="cert-modal-image-wrap"
+          aria-label="Zoom in"
+          title="Zoom in"
+          disabled
+        >
+          <svg class="cert-zoom-svg cert-zoom-svg--in" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+            <line x1="11" x2="11" y1="8" y2="14" />
+            <line x1="8" x2="14" y1="11" y2="11" />
+          </svg>
+          <svg class="cert-zoom-svg cert-zoom-svg--out" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+            <line x1="8" x2="14" y1="11" y2="11" />
+          </svg>
+        </button>
+      </div>
+      <div class="cert-modal-image-wrap" id="cert-modal-image-wrap">
+        <img id="cert-modal-img" class="cert-modal-img" alt="" decoding="async" />
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
